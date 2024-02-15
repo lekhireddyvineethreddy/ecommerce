@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import ProductsScreen from './Components/ProductsScreen'
+import Cart from './Components/Cart'
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <>
       <div>
         <ProductsScreen/>
+        <Cart/>
       </div>
     </>
   )
