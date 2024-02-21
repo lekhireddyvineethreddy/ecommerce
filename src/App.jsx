@@ -1,19 +1,17 @@
-import { useState } from 'react'
-import './App.css'
-import ProductsScreen from './Components/ProductsScreen'
-import Cart from './Components/Cart'
+import React from 'react';
+import Headerbanner from "./Bannersection/Headerbanner";
+import Header from './Components/Header';
+import ProductScreen from './Products/ProductScreen';
 
 function App() {
-  
-
   return (
-    <>
+    
       <div>
-        <ProductsScreen/>
-        <Cart/>
+        <Header />
+        <Headerbanner/>
+        <ProductScreen/>
       </div>
-    </>
-  )
+  );
 }
 
-export default App
+export default App;
